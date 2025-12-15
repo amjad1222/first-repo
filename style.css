@@ -1,0 +1,72 @@
+/* h1{
+    text-align: center;
+    font-size: 30px;
+    border: 5px solid black;
+    border-radius: 10px solid black;
+    padding: 10px;
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: aquamarine;
+} */
+
+/* ----------------------- */
+h1{
+    background-color: aquamarine;
+
+}
+.container{
+    border: 10px solid black;
+    width: 1000px;
+    height: 800px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.container div{
+    border: 5px solid green;
+    width: 150px;
+    height: 150px;
+
+}
+/* ---- position */
+/*  default (static) */
+/* 01 relative - moves relative to the its original position */
+.box1{
+    background-color: gold;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    bottom: 100px;
+    right: 100px;
+
+}
+/* 02 Absolute - moves realative to  close container or viewport */
+.box2{
+    background-color: darkcyan;
+    position: absolute;
+    top: 100px;
+    left: 400px;
+}
+/* 03 fixed - moves to stuck over the screen  place on scrolled (Absolute)*/
+.box3{
+    background-color: rgb(8, 104, 188);
+    position: fixed;
+    /* top: 100px;
+    left: 400px; */
+    top: 100px;
+    left: 10px;
+    /* this is Absolute behaviour into fixes position not relative */
+}
+/*  Sticky  same as fixes*/
+
+.box4{
+    background-color: rgb(27, 109, 5);
+    position: sticky;
+    top: 200px;
+    left: 400px;
+    /* its behaviou like relative */
+    /* at some time it will fixed */
+    /* This works like fixed but behave like relative */
+}
+
+
+
